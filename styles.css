@@ -1,0 +1,98 @@
+#hero{
+    height:800px;
+    background-image:url("images/places/1683198899905.jpg");
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#hero-content{
+    width: 900px;
+    background-color: rgba(16, 8, 1, 0.7);
+    box-shadow:2px 4px 8px rgb(163, 146, 126);
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px 0px;
+    margin: 0 auto;
+    position: relative;
+    top:200px
+}
+
+#hero-content h1{
+    color:white;
+    font-family: 'Lucida Sans',  'Lucida Grande', 'Lucida Sans Unicode';
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    margin:0;
+    text-shadow: 1px 1px 1px rgb(48, 13, 13)
+}
+#hero-content p{
+    color:white;
+    background-color: rgba(110, 93, 78, 0.1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size : 25px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px rgb(48, 13, 13)
+}
+
+#hero-content a {
+    text-decoration: none;
+    background-color: rosybrown;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68,67,67);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding:3px 6px;
+    color:black;
+}
+
+#hero-content a:hover{
+    background-color:white;
+
+}
+#highlights{
+    padding: 25px;
+    background:linear-gradient(180deg,rgba(216, 233, 240, 0.966) ,rgb(112, 148, 77));
+}
+
+#highlights h2{
+    margin:24px 0;
+    font-size: 70px;
+    color:rosybrown;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(48, 13, 13)
+}
+#destinations {
+    font-family: 'Lucida Sans',  'Lucida Grande', 'Lucida Sans Unicode';
+    display:flex;
+    padding:20px;
+    width:90%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.destinations{
+    margin: 0px 20px;
+    text-transform: uppercase;
+}
+.destinations p{
+    text-align: center;
+    font-size: 15px;
+    color:black;
+    margin:20px 0;
+}
+
+.destinations img{
+    height :200px;
+    width:100%;
+    box-shadow: 2px 4px 8px rgb(0,0,0);
+    border-radius:10px ;
+    object-fit:cover;
+}
+
+.destinations strong {
+    color:rgb(186, 76, 57);
+}
